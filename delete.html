@@ -1,10 +1,11 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title>DeleteData</title>
 <head>
     <meta charset="UTF-8">
-    <title>ATN</title>
-    <link rel="stylesheet" href="css/Style.css">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/Style1.css">
     <link rel="stylesheet" href="css/reset.css">
     <meta name="viewport" content="width=devicew-idth,initial-scale=1.0"> 
     <link rel="stylesheet" href="css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!-- fontawesome -->
@@ -25,7 +26,6 @@
 </head>
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/w3.css">
@@ -44,14 +44,20 @@ body {font-family: "Lato", sans-serif}
     <a href="insert.html" class="w3-bar-item w3-button w3-padding-large">Insert</a>
     <a href="update.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Update</a>
     <a href="delete.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Delete</a>
-    <a href="connecttoDB.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">View</a>   
+    <a href="ConnectToDB.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">View</a>
+<a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Home</a>    
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
-</body>
-<body>
-<div>
-<img style="width:50%; height:auto margin:70% auto" src="image/anh.jpg" alt="logo">
+    <head>
+<body style='background-color:#EFF8FB;margin-top:10%'>
+<div align="center">
+<h1>INSERT DATA TO DATABASE</h1>
+
+Insert database!<ul>
+    <form name="DeleteData" action="DeleteData.php" method="POST" >
+<li>NameID:</li><li><input type="text" name="nameid" /></li>
+<li><button type="submit" value="Submit">Delete</button></li>
 </div>
 </body>
 </html>
