@@ -1,18 +1,19 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-    <a href="DatabaseIndex.php" target="_blank" >Database</a>
-     <br/> 
-    <a href="ConnectToDB.php" target="_blank" >View</a>
-     <br/>
-     <a href="InsertData.php" target="_blank" >Insert</a>
-     <br/>
-     <a href="UpdateData.php" target="_blank" >Update </a> 
-    <br/>
-    <a href="DeleteData.php" target="_blank" >Delete</a> 
-     <br/>
-     
-
-</body>
-
-     
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <h1> xin chao viet nam </h1>
+        <a href="index.html">mywebsite</a>
+        <?php
+        // put your code here
+        ?>
+    </body>
 </html>
-
