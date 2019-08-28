@@ -1,5 +1,6 @@
 <?php
-/* Tạo một hằng số có tên là SDT và gán giá trị cho nó là 0909090909*/
-define('SDT', '0909090909');
-echo SDT; // xuất ra màn hình giá trị của hằng.
+$thap_phan = 123; // Số thập phân
+$so_am = -123; // Số âm
+$bat_phan = 0123; // số bát phân
+$thap_luc_phan = 0x1A; // và số thập lục phân
 ?>
